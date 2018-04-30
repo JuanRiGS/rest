@@ -1,0 +1,10 @@
+
+version: '2.1'
+
+services:
+  netcore:
+    image: netcore
+    build: .
+    ports:
+      - 3000:3000
+
